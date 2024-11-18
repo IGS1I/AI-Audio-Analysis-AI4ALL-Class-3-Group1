@@ -27,6 +27,7 @@ How accurately can an AI model predict a song's emotional mood based on extracte
 - Pydub
 - Python
 - PyTorch
+- Scikit-learn
 - Seaborn
 - Spotify API
 - Streamlit
