@@ -13,16 +13,19 @@ How accurately can an AI model predict a song's emotional mood based on extracte
 - 
 
 ## Methods
-- Supervised Learning
+- Semi-supervised Learning
 
 ## Data Sources
 - Kaggle
 
-## Technologies Used- Python
-- TensorFlow
+## Technologies Used
 - Librosa
-- Scikit-learn
-- Pandas
-- NumPy
 - Matplotlib
+- NumPy
+- Optuna
+- Pandas
+- Pydub
+- Python
+- PyTorch
+- Seaborn
 - Spotify API
