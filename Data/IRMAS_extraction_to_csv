@@ -39,15 +39,15 @@ def process_dataset(dataset_path):
                         #Add label and features to dataset
                         data.append({"label": label, **features})
     #Convert to Pandas Dataframe
-    return pd.Dataframe(data)
+    return pd.DataFrame(data)
 
 #Path to my unzipped IRMAS dataset
-dataset_path = "C:\Users\willi\VsCodeProjects\AI-Audio-Analysis-AI4ALL\Data\IRMAS-TrainingData"
+dataset_path = "Data\IRMAS-TrainingData"
 
 #Process dataset
 audio_features_df = process_dataset(dataset_path)
 
 #Save features to a csv for future use
-audio_features_df.to_csv("irmas_features.csv", index=false)
+audio_features_df.to_csv("irmas_features.csv", index=False)
 
 print("Feature extraction complete! Data saved to 'irmas_features.csv'.")
