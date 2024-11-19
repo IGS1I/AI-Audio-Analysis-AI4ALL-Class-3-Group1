@@ -1,3 +1,7 @@
 venv/
 reqName.txt
 Data/IRMAS-TrainingData
+Data/GTZAN
+Data/EMOMUSIC - clips_45seconds
+Data/EMOMUSIC_Combine.ipynb
+Data/GTZAN.ipynb
