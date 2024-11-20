@@ -17,6 +17,10 @@ How accurately can an AI model predict a song's emotional mood based on extracte
 
 ## Data Sources
 - Kaggle
+- Audioset By Google
+- EmoMusic
+- GTZAN
+- IRMAS
 
 ## Technologies Used
 - Librosa
