@@ -5,3 +5,4 @@ Data/IRMAS-Testing Data
 Data/GTZAN
 Data/EMOMUSIC - clips_45seconds
 Data/*.ipynb
+models/*ipynb

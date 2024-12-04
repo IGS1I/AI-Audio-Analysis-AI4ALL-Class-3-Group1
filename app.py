@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 #Lead model and label encoder
 @st.cache_resource
 def load_model_and_encoder():
-    model = tf.keras.models.load_model(r'models\Instrument_model.h5')
+    model = tf.keras.models.load_model(r'models\Instrument_model.keras')
     label_encoder = LabelEncoder()
     label_encoder.classes_ = np.load(r'models\Instrument_classes.npy')
     return model, label_encoder
