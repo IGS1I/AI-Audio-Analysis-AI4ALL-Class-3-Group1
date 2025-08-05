@@ -23,15 +23,19 @@ How accurately can an AI model predict a song's emotional mood based on extracte
 - IRMAS
 
 ## Technologies Used
+
+### Programming Languages 
+- Python
+- Mojo
+
+### Frameworks & Libraries
 - Librosa
 - Matplotlib
 - NumPy
 - Optuna
 - Pandas
 - Pydub
-- Python
 - Scikit-learn
 - Seaborn
-- Spotify API
 - Streamlit
 - Tensorflow
