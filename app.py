@@ -31,7 +31,7 @@ def extract_audio_features(audio_file):
 
         # Basic features
         features['tempo'], _ = librosa.beat.beat_track(y=y, sr=sr)
-        features['chroma_stft'] = np.mean(librosa.feature.chroma(y=y, sr=sr))
+        features['chroma_stft'] = np.mean(librosa.feature.chroma_stft(y=y, sr=sr))
         features['rmse'] = np.mean(librosa.feature.rms(y=y))
         features['spectral_centroid'] = np.mean(librosa.feature.spectral_centroid(y=y, sr=sr))
         features['spectral_bandwidth'] = np.mean(librosa.feature.spectral_bandwidth(y=y, sr=sr))
