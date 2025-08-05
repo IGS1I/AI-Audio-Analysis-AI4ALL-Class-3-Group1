@@ -43,7 +43,8 @@ def extract_audio_features(audio_file):
         for i in range(20):
             features[f'mfcc{i+1}'] = np.mean(mfccs[i])
 
-        return pd.DataFrame([features])
+        df = pd.DataFrame([features])
+        return df.astype(float)
 
     finally:
         # Clean up temporary file
